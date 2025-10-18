@@ -5,11 +5,11 @@ import { TrendingUp, TrendingDown, Wallet, Receipt } from "lucide-react";
 
 const Dashboard = () => {
   const [monthlyExpenses] = useState([
-    { name: "Food", value: 450, color: "hsl(152, 29%, 59%)" },
-    { name: "Transport", value: 230, color: "hsl(152, 29%, 75%)" },
-    { name: "Utilities", value: 340, color: "hsl(152, 35%, 45%)" },
-    { name: "Entertainment", value: 180, color: "hsl(152, 20%, 85%)" },
-    { name: "Housing", value: 1200, color: "hsl(152, 40%, 35%)" },
+    { name: "Food", value: 450, color: "hsl(220, 70%, 28%)" },
+    { name: "Transport", value: 230, color: "hsl(220, 60%, 50%)" },
+    { name: "Utilities", value: 340, color: "hsl(220, 75%, 20%)" },
+    { name: "Entertainment", value: 180, color: "hsl(220, 70%, 65%)" },
+    { name: "Housing", value: 1200, color: "hsl(220, 80%, 15%)" },
   ]);
 
   const [weeklyData] = useState([
